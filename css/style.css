@@ -929,6 +929,9 @@ button:hover
 	transform: rotateY(180deg);
     background-color: #3662b8;
     padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .back a
@@ -936,8 +939,8 @@ button:hover
     background-color: #FAFAFA;
     padding: 1em;
     border-radius: 25em;
-    margin: 3em;
-    width: 100%;
+    width: 50%;
+    margin: 2.5em;
     font-size: 15px;
 }
 
